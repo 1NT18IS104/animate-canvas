@@ -1,0 +1,32 @@
+div{
+  margin-left: 400px;
+}
+
+span{
+  color: rgb(226, 27, 103);
+  font-weight: bolder;
+}
+
+h1{
+  margin-left: 700px;
+  text-shadow: 2px 3px  rgb(179, 8, 88, 0.4);
+  font-family: 'Blippo', fantasy
+}
+button{
+  background-color: rgb(218, 210, 191);
+  border: none;
+  height: 30px;
+  margin:20px ;
+  font-size: medium;
+  font-weight: bold;
+  font-family: 'Hack', monospace;
+  transition: all 0.3s ease 0s;
+  box-shadow: 5px 10px 20px rgb(170, 167, 161);
+}
+
+button:hover{
+  box-shadow: 5px 10px 20px  rgb(211, 161, 44);
+  cursor: pointer;
+  transform: translateY(-7px);
+}
+
