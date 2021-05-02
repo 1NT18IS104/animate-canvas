@@ -147,3 +147,33 @@ loadImages((images) => {
     }));
 });
 
+//attempt to animate background
+// let c=document.getElementById("canvasBg");
+// let ctx=c.getContext("2d");
+
+// //set a background 
+// var bg= new Image();
+// bg.src= "images/background.jpg";
+
+
+// function Background (){
+//     this.x=0, this.y=0, this.w=bg.width, this.h=bg.height;
+//     this.render= () => {
+//         ctx.drawImage(bg, this.x-=7, 0, 3000, 700);
+//         if(this.x <= -1499) this.x=0;
+//     };
+// };
+// var background= new Background();
+
+// function animate(callback) {
+//     ctx.save();
+//     ctx.clearRect(0,0,1500,700);
+//     background.render();
+//     ctx.drawImage(canvasGame, 0, 0)
+//     ctx.restore();
+// }
+
+// //var animateInterval = setInterval(animate, 30);
+// window.addEventListener('load', function(event) {
+//     animate();
+// });
